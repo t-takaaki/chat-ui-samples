@@ -1,5 +1,9 @@
 // src from: https://github.com/Detaysoft/react-chat-elements/tree/master/example
-
+/*
+  Copyright (c) 2017 Detaysoft
+  Released under the MIT license
+  https://github.com/Detaysoft/react-chat-elements/blob/master/LICENSE
+*/
 import React, { Component } from 'react';
 import {
   // MessageBox,
