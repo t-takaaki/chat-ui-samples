@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, NavLink, Switch } from 'react-router-dom';
+import TailwindChat from './TailwindChat'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <header>
+          <nav style={{ padding: "20px 0", backgroundColor: "#F2F2F2", marginBottom: "20px"}}>
+            <NavLink activeClassName="active" to="tailwind">tailwind chat</NavLink>
+          </nav>
+        </header>
+        <Switch>
+          <Route path="/tailwind">
+            <TailwindChat />
+          </Route>
+        </Switch>
+     </div>
+    </BrowserRouter>
   );
 }
 
