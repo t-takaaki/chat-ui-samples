@@ -5,9 +5,9 @@ import "./App.css"
 import App from './App'
 
 const Index = () => (
-    <div className="elements-wrapper" style={{background: "navajowhite"}}>
-        <App />
-    </div>
+  <div className="elements-wrapper" style={{background: "navajowhite"}}>
+    <App />
+  </div>
 )
 
 export default Index;

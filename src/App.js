@@ -25,7 +25,7 @@ const App = () => {
             <ReactChatElements />
           </Route>
         </Switch>
-     </div>
+      </div>
     </BrowserRouter>
   );
 }
