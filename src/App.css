@@ -3,6 +3,6 @@
 }
 
 .active {
-  color: #ccc;
+  color: #ccc !important;
   text-decoration: underline;
 }
