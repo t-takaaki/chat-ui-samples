@@ -15,7 +15,7 @@ see: `/tailwind`
 
 from: [react-chat-elements example](https://github.com/Detaysoft/react-chat-elements/tree/master/example)
 
-see: "/elements"
+see: `/elements`
 
 ![image](https://user-images.githubusercontent.com/7941022/133881976-428b0706-1d6b-45d4-8a3f-4b3393706204.png)
 
