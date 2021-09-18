@@ -9,6 +9,12 @@ By JHONNY25](https://tailwindcomponents.com/component/example-chat)
 
 see: "/tailwind"
 
+## ReactChatElements
+
+from: [react-chat-elements example](https://github.com/Detaysoft/react-chat-elements/tree/master/example)
+
+see: "/elements"
+
 ## Available Scripts
 
 In the project directory, you can run:
