@@ -1,4 +1,4 @@
-import { ChatBody } from './layouts/ChatBody'
+import { ChatBody } from "./layouts/ChatBody";
 
 export const TailwindChat = () => {
   return (
@@ -6,4 +6,4 @@ export const TailwindChat = () => {
       <ChatBody />
     </div>
   );
-}
+};
