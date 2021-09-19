@@ -3,7 +3,7 @@ import { ChatMessages } from "./ChatMessages";
 
 export const ChatBody = () => (
   <div
-    className="h-screen overflow-hidden flex items-center justify-center"
+    className="h-screen flex items-center justify-center"
     style={{ background: " #edf2f7" }}
   >
     <div className="w-screen">

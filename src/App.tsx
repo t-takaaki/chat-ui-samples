@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Route, NavLink, Switch } from "react-router-dom";
-import TailwindChat from "./TailwindChat/index";
+import TailwindChat from "./TailwindChat";
 import ReactChatElements from "./ReactChatElements";
 
 const App = () => {
