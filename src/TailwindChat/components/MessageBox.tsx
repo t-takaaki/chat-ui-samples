@@ -1,4 +1,4 @@
-import { Message } from "./Message"
+import { Message } from "./Message";
 
 export const MessageBox = () => (
   <ul>
@@ -9,4 +9,4 @@ export const MessageBox = () => (
       <Message body="I am fine" sentAt="10:42pm" my={false} />
     </li>
   </ul>
-)
+);
